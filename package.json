@@ -1,6 +1,18 @@
 {
+  "name": "pdf to image and image to text",
+  "version": "1.0.0",
+  "main": "00.js",
+  "license": "MIT",
+  "author": "Arjun <mettumalli@gmail.com>",
   "dependencies": {
     "node-tesseract-ocr": "^2.2.1",
-    "pdf2pic": "^3.1.0",
+    "pdf2pic": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon 00.js",
+    "start": "node 00.js"
   }
 }
